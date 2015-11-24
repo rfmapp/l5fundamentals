@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecc09153-a242-46ba-9274-4c7713c71bd4" name="Default" comment="Alterado o arquivo de criação da tabela de usuários.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2015_11_24_173605_create_articles_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2015_11_24_174953_add_excerpt_to_articles_table.php" />
+    <list default="true" id="ecc09153-a242-46ba-9274-4c7713c71bd4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Article.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="l5fundamentals.iws" />
@@ -61,11 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015_11_24_174953_add_excerpt_to_articles_table.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2015_11_24_174953_add_excerpt_to_articles_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_24_174953_add_excerpt_to_articles_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5473684">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state vertical-scroll-proportion="-15.333333">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25263157">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -90,6 +99,7 @@
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_11_24_173605_create_articles_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_11_24_174953_add_excerpt_to_articles_table.php" />
+        <option value="$PROJECT_DIR$/app/Article.php" />
       </list>
     </option>
   </component>
@@ -467,7 +477,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448386448125</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Criados os arquivos de migração da tabela artigos e adição de uma coluna à tabela criada.">
+      <created>1448389426614</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1448389426614</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -518,7 +534,8 @@
     <MESSAGE value="Alterado o arquivo 'about.blade.php', adicionada a seçao de titulo da pagina." />
     <MESSAGE value="Corrigido um erro no codigo, faltando fechar aspas simples no '@extends'." />
     <MESSAGE value="Alterado o arquivo de criação da tabela de usuários." />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterado o arquivo de criação da tabela de usuários." />
+    <MESSAGE value="Criados os arquivos de migração da tabela artigos e adição de uma coluna à tabela criada." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criados os arquivos de migração da tabela artigos e adição de uma coluna à tabela criada." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -681,8 +698,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_24_174953_add_excerpt_to_articles_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5473684">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state vertical-scroll-proportion="-15.333333">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25263157">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
