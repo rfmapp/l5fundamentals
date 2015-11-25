@@ -8,3 +8,7 @@ Route::get('/', function () {
 // Rotas para o controller PagesController.
 Route::get('about', 'PagesController@about');
 Route::get('contact', 'PagesController@contact');
+
+// Rotas para o controller ArticlesController.
+Route::get('articles', 'ArticlesController@index');
+Route::get('articles/{id}', 'ArticlesController@show');
