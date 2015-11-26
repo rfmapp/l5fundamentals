@@ -11,5 +11,5 @@ Route::get('contact', 'PagesController@contact');
 
 // Rotas para o controller ArticlesController.
 Route::get('articles', 'ArticlesController@index');
-Route::get('articles/{id}', 'ArticlesController@show');
 Route::get('articles/create', 'ArticlesController@create');
+Route::get('articles/{id}', 'ArticlesController@show');
