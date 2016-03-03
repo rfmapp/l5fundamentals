@@ -1,7 +1,7 @@
 @extends('main')
 
 @section('title')
-    Novo Artigo
+    New Article
 @endsection
 
 @section('content')
