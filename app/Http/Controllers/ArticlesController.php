@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Article;
-use Carbon\Carbon;
 use App\Http\Requests\ArticleRequest;
-use App\Http\Controllers\Controller;
+use Auth;
 
 class ArticlesController extends Controller
 {
@@ -33,8 +32,10 @@ class ArticlesController extends Controller
 
     public function store(ArticleRequest $request)
     {
-        // Recebe os dados do formulario e tenta fazer a inclusao no banco de dados, se passar pelas validaçoes.
-        Article::create($request->all());
+        // Cria variável que recebe os dados do artigo.
+        $article = new Article($request->all());
+        // Indica que o usuário que o dono do post é o usuário logado e depois salva os dados, caso passem pela validação.
+        Auth::user()->articles()->save($article);
         // Retorna para a pagina inicial de artigos.
         return redirect('articles');
     }
