@@ -9,6 +9,14 @@
 
     <hr/>
 
+    @if ($errors->any())
+        <ul class="alert alert-danger">
+            @foreach ($errors->all() as $error)
+                <li>{{ $error  }}</li>
+            @endforeach
+        </ul>
+    @endif
+
     {!! Form::open(['url' => 'articles']) !!}
         <div class="form-group">
             {!! Form::label('title', 'Title:') !!}
